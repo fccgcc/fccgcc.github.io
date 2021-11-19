@@ -1,4 +1,78 @@
-body {
+body{
+  margin-left: 8%;
+  margin-right: 8%
+}
+#photo-region{
+  width: 50%;
+}
+#page-selection{
+  display: flex;
+  flex-direction: row;
+  margin-left: 35%;
+}
+
+#top-elements-box{
+  display: flex;
+  flex-direction: row;
+}
+#filters-box{
+  display: flex;
+  flex-direction: row; 
+}
+#research-box{
+  display: flex;
+  flex-direction: row; 
+}
+
+/* nav .page-selection-btn:hover {
+  opacity: 0.9;
+  background-color: #cecece;
+} */
+nav .page-selection-btn{ 
+  border: 5px hidden;
+  padding-top: 10%;
+  background-color: white;
+  color : gray;
+}
+nav .page-selection-btn:active,
+nav .page-selection-btn:focus {
+  border-top: 2px solid blue;
+  color: blue;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+.input-field {
+  width: 20%;
+  padding: 10px;
+  outline: none;
+  
+}
+.icon {
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 2px;
+  background: rgb(211, 211, 211);
+  color: black;
+  min-width: 40px;
+  text-align: center;
+  border-top-left-radius   : 15px;
+  border-bottom-left-radius: 15px
+}
+
+#sub-title{
+  margin-bottom:0;
+}
+#under-title{
+  margin-top : 0; 
+  padding-top:5px;
+  font-size: 90%;
+  color: grey;
+}
+
+
+header, body, footer, .page-selection-btn {
     font-family: 'Raleway';
 }
 
