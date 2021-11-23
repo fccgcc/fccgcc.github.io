@@ -1,3 +1,11 @@
+.bold-text{
+  font-weight: bold;
+}
+.bordered-text{
+  border-color: gray;
+  border: red solid;
+}
+
 body{
   margin-left: 8%;
   margin-right: 8%;
@@ -12,17 +20,13 @@ body{
   display: flex;
   flex-direction: row;
 }
-#photo-region{
+#logo-region{
   width: 50%;
 }
 #page-selection{
   margin-left: 35%;
 }
 
-/* nav .page-selection-btn:hover {
-  opacity: 0.9;
-  background-color: #cecece;
-} */
 nav .page-selection-btn{ 
   border: 5px hidden;
   padding-top: 10%;
@@ -42,8 +46,8 @@ nav .page-selection-btn:hover {
   width: 20%;
   padding: 10px;
   outline: none;
-  
 }
+
 .icon {
   padding: 10px;
   padding-left: 5px;
@@ -59,6 +63,7 @@ nav .page-selection-btn:hover {
 #sub-title{
   margin-bottom:0;
 }
+
 #under-title{
   margin-top : 0; 
   padding-top:5px;
@@ -67,15 +72,56 @@ nav .page-selection-btn:hover {
 }
 
 #submit-btn{
-  background-color: rgb(0, 110, 255); /* Green background */
-  border : none ; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
+  background-color: rgb(0, 110, 255); 
+  color: white; 
+  padding: 10px 24px;
+  border : none ; 
   border-top-right-radius   : 15px;
   border-bottom-right-radius: 15px
 }
+
 header, body, footer, .page-selection-btn {
     font-family: 'Raleway';
 }
 
+#spacing-div{
+  margin-top: 2%;
+}
 
+.filter-container{
+  border: 1px solid;
+  /* border-radius: 25%; */
+  margin-left: 2.5%;
+  padding-right:2px;
+}
+
+.filter-container:hover {
+  border-top: 1px solid blue;
+  color: blue;
+}
+
+.flex-wrap{
+  flex-wrap: wrap
+}
+
+.filter-icon{
+  color: blue;
+  background: lightblue;
+  margin-right: 2.5px;
+}
+
+.circled{ 
+  /* border-radius: 50%; */
+  padding: 20px;
+}
+.middled{
+  text-align: center;
+  vertical-align: middle;
+}
+.aligned{
+  text-align: center;
+}
+.paddled{
+  padding-left: 10px;
+  padding-right: 10px;
+}

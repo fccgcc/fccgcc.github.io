@@ -12,9 +12,9 @@
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     </head>
 <body>
-    <header>
+    <header><!-- logo + navigation -->
     <div class="horizontal-box">
-        <div id="photo-region">
+        <div id="logo-region">
             <img src="./images/logo/Booki.png" alt="logo" title="logo" />
         </div>
         <div id="page-selection">
@@ -25,19 +25,43 @@
         </div>
     </div>
     </header>
-    <div id="header-text-holder">
+    <div id="header-text-holder"> <!-- chapeau introductif -->
         <h4 id="sub-title">Trouvez votre hébergement pour des vacances</h4>
         <p id="under-title">En plein centre ville ou en pleine nature</p> 
     </div>    
-    <div class= horizontal-box>
+    <div class= horizontal-box> <!-- zone de recherche de lieu-->
         <i class="fas fa-map-marker-alt icon"></i>    
         <input class="input-field" type="text" placeholder="Ville, Pays" name="ville-pays">
         <button type="submit" id="submit-btn">Rechercher</button>
     </div>
-    
-    <div class="horizontal-box">
-        
+        <div id="spacing-div"></div>
+    <div class="horizontal-box flex-wrap"><!-- zone de placement des filtres -->
+
+        <p class="bold-text">Filtres</p>
+        <div class="filter-container horizontal-box"> 
+            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <p class="bold-text paddled">Economique</p>
+        </div>
+        <div class="filter-container horizontal-box"> 
+            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <p class="bold-text paddled ">Familial</p>
+        </div>
+        <div class="filter-container horizontal-box"> 
+            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <p class="bold-text paddled">Romantique</p>
+        </div>
+        <div class="filter-container horizontal-box"> 
+            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <p class="bold-text paddled">Animaux autorisés</p>
+        </div>
     </div>
+    </div>
+    <div id="spacing-div"></div>
+    <div class="horizontal-box middled">  <!-- information resultat recherche -->  <!--#TODO améliorer alignement image/texte -->  
+        <i class="fas fa-info-circle"></i>
+        <p class= "paddled" id="under-title">Plus de 5000 logements sont disponibles dans cette ville</p>
+    </div>
+
 
     <footer>
      
