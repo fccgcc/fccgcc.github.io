@@ -16,6 +16,9 @@ body{
   display: flex;
   flex-direction: row;
 }
+.right-aligned{
+  justify-content: flex-end;
+}
 .vertical-box{
   display: flex;
   flex-direction: column;
