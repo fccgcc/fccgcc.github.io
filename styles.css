@@ -1,6 +1,9 @@
 .bold-text{
   font-weight: bold;
 }
+.big-text{
+  font-size: 125%;
+}
 
 body{
   margin-left: 8%;
@@ -126,10 +129,18 @@ header, body, footer, .page-selection-btn {
 .aligned{
   text-align: center;
 }
+.align-self-bottom{
+  align-self: flex-end;
+}
 .paddled{
   padding-left: 10px;
   padding-right: 10px;
 }
+.paddled-top{
+  padding-top: 10px;
+}
+
+
 .flex-wrap-margined-top{
   margin-top: 10px;
 }
@@ -144,10 +155,20 @@ header, body, footer, .page-selection-btn {
   width: 66%;
   border-radius:   30px;
 }
+
 #most-popular-container{
   width: 33%;
+  height : auto;
   border-radius: 30px;
 }
+.fit-most-popular-container{
+  margin-top: 1%;
+  margin-left: 1%;
+  border-radius: 5px 0px 0px 5px;
+  width: 50%;
+  height: 142px;
+}
+
 .all-paddled{
   padding: 20px;
 }
@@ -164,82 +185,115 @@ header, body, footer, .page-selection-btn {
   margin-left: 8%;
   margin-right: 8%;
 }
+.margined-left{
+  margin-left: 3%;
+}
 .side-paddled{
   padding-left: 20px;
   padding-right: 20px;
 }
+.center-aligned{ /*ne fonctionne pas*/
+  display: flex;
+  align-self: center;
+}
+.right-aligned{
+  justify-content: flex-end;
+}
+.space-between{
+  justify-content: space-evenly;
+}
+.space-between-fix{
+  height: 70px ;
+}
 
-/*.margined-left{
-  margin-right: 25%;
-}  */
-
+.rating-margin-top{ /*fix*/
+  margin-top: 45%;
+}
 
 .host-card{ 
-  width: 31%; /* #TODO : décider pourcentages/px ??*/
+  padding : 10px;
+  padding-bottom: 1px;
+  width: 28%; 
   height: 200px ;
-  background-color: lightblue;
+  background-color: white;
   border-radius: 30px;
 }
 
+.star-icon{
+  color: blue;
+}
 .most-popular-card{
   width: auto;
   height: 150px ;
-  background-color: lightblue;
-  border-radius: 30px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
 }
 
 .inner-activities-container{
   width: 25%;
+  height: 400px ;
 }
 .big-activity-card{
+  box-shadow: -2px -3px 10px  gray;    
   width: 22%; 
-  height: 400px ;
-  background-color: rgb(126, 143, 148);
+  height: auto ;
   border-radius: 30px;
 }
 .medium-activity-card{
+  box-shadow: -2px -3px 10px  gray;
   width: auto; 
-  height: 66% ;
-  background-color: rgb(126, 143, 148);
+  height: 54% ;
   border-radius: 30px;
 }
 .small-activity-card{
+  box-shadow: -2px -3px 10px    gray;
   width: auto; 
-  height: 33% ;
-  background-color: rgb(126, 143, 148);
+  height: 41% ;
   border-radius: 30px;
 }
 
-.fit-container{
-  width: 100%;
+.fit-container{    /*fix*/
+  margin-top: -6px ;
+  margin-left: -6px;
+  width: 106%;
   max-height: 60%;
-  overflow: hidden;
-  border-radius : 20px ;
+  border-radius : 30px ;
 }
 
 .actitity-card-fit-container{
   width: 100%;
-  max-height: 60%;
-  overflow: hidden;
-  border-radius : 20px ;
+  height:80%;
+  border-radius : 20px 20px 0 0  ; 
 }
+.big-actitity-height{
+  height: 92%;
+}
+
+.medium-actitity-height{
+  height: 85%;
+}
+
+.small-actitity-height{
+  height: 80%;
+}
+
 
 #footer-container{
   margin-left: 15%;
 }
 
 .footer-about{
-  width: 33%;
+  width: 25%;
   height: 200px;
   background-color: #F2F2F2;
 }
 .footer-our-hosts{
-  width: 33%;
+  width: 25%;
   height: 200px;
   background-color: #F2F2F2;
 }
 .footer-help{
-  width: 33%;
+  width: 25%;
   height:  200px;
   background-color: #F2F2F2;  
 }
