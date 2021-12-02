@@ -13,28 +13,36 @@
     </head>
 <body>
     <header><!-- logo + navigation -->
-    <div class="horizontal-box">
-
-        <div id="logo-region">
+        <div class="horizontal-box">
             <img src="./images/logo/Booki.png" alt="logo" title="logo"/>
+            <div class="right-aligned">
+                <nav>
+                    <input class="page-selection-btn" type="button" onclick="window.location.href='#Hebergement';" value="Hébergement"/>
+                    <input class="page-selection-btn" type="button" onclick="window.location.href='#Activites';" value="Activités" />
+                </nav>
         </div>
-        <div class="horizontal-box right-aligned" id="page-selection">
+
+    
+        <!-- <div class="horizontal-box">
+            <img src="./images/logo/Booki.png" alt="logo" title="logo"/>
             <nav>
-                <input class="page-selection-btn" type="button" onclick="window.location.href='#Hebergement';" value="Hébergement"/>
-                <input class="page-selection-btn" type="button" onclick="window.location.href='#Activites';" value="Activités" />
+                <input class="page-selection-btn right-aligned" type="button" onclick="window.location.href='#Hebergement';" value="Hébergement"/>
+                <input class="page-selection-btn right-aligned" type="button" onclick="window.location.href='#Activites';" value="Activités" />
             </nav>
-        </div> 
+        </div> -->
+        
+
 
         <!-- <div id="logo-region">
             <img src="./images/logo/Booki.png" alt="logo" title="logo" />
-        </div>
+            </div>
         <div id="page-selection">
             <nav>
                 <input class="page-selection-btn" type="button" onclick="window.location.href='#Hebergement';" value="Hébergement"/>
                 <input class="page-selection-btn" type="button" onclick="window.location.href='#Activites';" value="Activités" />
             </nav>
         </div> -->
-    </div>
+
     </header>
     <div id="header-text-holder"> <!-- chapeau introductif -->
         <h4 id="sub-title">Trouvez votre hébergement pour des vacances</h4>
@@ -51,19 +59,19 @@
 
          <p class="bold-text" id="margined-top">Filtres</p> <!--#TODO améliorer alignement texte avec filtre  --> 
         <div class="filter-container horizontal-box "> 
-            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <i class="fas fa-money-bill-wave filter-icon circled middled"></i>
             <p class="bold-text paddled ">Economique</p>
         </div>
         <div class="filter-container horizontal-box"> 
-            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <i class="fas fa-child filter-icon circled middled"></i>
             <p class="bold-text paddled">Familial</p>
         </div>
         <div class="filter-container horizontal-box"> 
-            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <i class="fas fa-heart filter-icon circled middled"></i>
             <p class="bold-text paddled">Romantique</p>
         </div>
         <div class="filter-container horizontal-box"> 
-            <i class="fa fa-map-marker-alt filter-icon circled middled"></i>
+            <i class="fas fa-dog filter-icon circled middled"></i>
             <p class="bold-text paddled">Animaux autorisés</p>
         </div>
     </div>
@@ -173,7 +181,7 @@
         <div id="most-popular-container" class ="all-paddled gray-background">
             <div class="side-paddled horizontal-box">
                 <h2>Les plus populaires</h2>
-                <i class="fa fa-chart-line"></i>   
+                <i class="fa fa-chart-line right-aligned" id="paddled-top-chart"></i>   
             </div>  
             <div id="most-popular-cards-container" class="vertical-box flex-wrap row-gapped column-gapped side-paddled">
                 <div class="most-popular-card">

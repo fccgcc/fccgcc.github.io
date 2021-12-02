@@ -4,7 +4,6 @@
 .big-text{
   font-size: 125%;
 }
-
 body{
   margin-left: 8%;
   margin-right: 8%;
@@ -19,8 +18,11 @@ body{
   display: flex;
   flex-direction: row;
 }
+
 .right-aligned{
-  justify-content: flex-end;
+  margin-left: auto; 
+  margin-right: 0;
+ /* float:right   */
 }
 .vertical-box{
   display: flex;
@@ -155,7 +157,9 @@ header, body, footer, .page-selection-btn {
   width: 66%;
   border-radius:   30px;
 }
-
+#paddled-top-chart{
+  margin-top: 8%;
+}
 #most-popular-container{
   width: 33%;
   height : auto;
@@ -220,7 +224,7 @@ header, body, footer, .page-selection-btn {
 }
 
 .star-icon{
-  color: blue;
+  color: #0065FC;
 }
 .most-popular-card{
   width: auto;
