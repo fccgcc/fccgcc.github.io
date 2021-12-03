@@ -14,7 +14,11 @@
     margin-left: 40px;
   }
 
-
+  .input-field-resp {
+    width:100%;
+    padding: 10px;
+    outline: none;
+  }
   
 
   .research-text{
@@ -39,7 +43,11 @@
     background-repeat: no-repeat;
   }
 
-
+  .input-field-resp {
+    width:20%;
+    padding: 10px;
+    outline: none;
+  }
   .research-text{
     display:inline-block
   }
@@ -63,7 +71,11 @@
     background-repeat: no-repeat;
   }
   
-  
+  .input-field-resp {
+    width:20%;
+    padding: 10px;
+    outline: none;
+  }
   
   .research-text{
     display:inline-block
