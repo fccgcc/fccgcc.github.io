@@ -13,7 +13,18 @@
     background-repeat: no-repeat;
     margin-left: 40px;
   }
+
+
+  
+
+  .research-text{
+    display:none
+  }
+  .research-icon{
+    display: inline-block;
+  }
 }
+
 /*tablette*/
 @media (min-width:768px) and(max-width:992) {
   .header-horizontal-box{
@@ -27,7 +38,16 @@
     height:90px;
     background-repeat: no-repeat;
   }
+
+
+  .research-text{
+    display:inline-block
+  }
+  .research-icon{
+    display: none;
+  }
 }
+
 /*desktop*/
 @media screen and (min-width :992px) {
   .header-horizontal-box{
@@ -43,6 +63,15 @@
     background-repeat: no-repeat;
   }
   
+  
+  
+  .research-text{
+    display:inline-block
+  }
+  .research-icon{
+    display: none;
+  }
+
 }
 
 
@@ -99,7 +128,7 @@ nav .page-selection-btn:hover {
   border: 2px solid dodgerblue;
 }
 .input-field {
-  width: 20%;
+  width:20%;
   padding: 10px;
   outline: none;
 }

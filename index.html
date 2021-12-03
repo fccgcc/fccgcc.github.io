@@ -28,15 +28,20 @@
         <div class="under-title">En plein centre ville ou en pleine nature</div>
         <div class="spacing-div"></div> 
     </div>    
-    <div class= horizontal-box> <!-- zone de recherche de lieu-->
+
+    <div class=horizontal-box> <!-- zone de recherche de lieu-->
         <i class="fas fa-map-marker-alt icon"></i>    
         <input class="input-field" type="text" placeholder="Ville, Pays" name="ville-pays">
-        <button type="submit" id="submit-btn">Rechercher</button>
+        <button type="submit" id="submit-btn">
+            <div class="research-text">Rechercher</div>
+            <div class="research-icon"><i class="fas fa-search"></i></div>
+        </button>
+
     </div>
         <div class="spacing-div"></div>
     <div class="horizontal-box flex-wrap row-gap "><!-- zone de placement des filtres -->
 
-         <p class="bold-text" id="margined-top">Filtres</p> <!--#TODO améliorer alignement texte avec filtre  --> 
+        <p class="bold-text" id="margined-top">Filtres</p> <!--#TODO améliorer alignement texte avec filtre  --> 
         <div class="filter-container horizontal-box "> 
             <i class="fas fa-money-bill-wave filter-icon circled middled"></i>
             <p class="bold-text paddled ">Economique</p>
