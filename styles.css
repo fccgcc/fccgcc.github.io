@@ -1,3 +1,51 @@
+/*mobile*/
+@media screen and (max-width : 768px) {
+  .header-horizontal-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .logo-booki{
+    background-image: url("./images/logo/Booki.png");
+    width: 172px;
+    height:90px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+  }
+}
+/*tablette*/
+@media (min-width:768px) and(max-width:992) {
+  .header-horizontal-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .logo-booki{
+    background-image: url("./images/logo/Booki.png");
+    width: 172px;
+    height:90px;
+    background-repeat: no-repeat;
+  }
+}
+/*desktop*/
+@media screen and (min-width :992px) {
+  .header-horizontal-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .logo-booki{
+    background-image: url("./images/logo/Booki.png");
+    width: 172px;
+    height:90px;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+
 .bold-text{
   font-weight: bold;
 }
@@ -8,22 +56,22 @@ body{
   margin-left: 8%;
   margin-right: 8%;
 }
-/* @media screen and (min-width : 720px) {
-  body{
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-} */
+
 .horizontal-box{
   display: flex;
   flex-direction: row;
 }
 
 .right-aligned{
-  margin-left: auto; 
-  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-aligned{
+  margin-top: auto; 
+  margin-bottom: 0;
  /* float:right   */
 }
+
 .vertical-box{
   display: flex;
   flex-direction: column;
@@ -211,7 +259,8 @@ header, body, footer, .page-selection-btn {
 }
 
 .rating-margin-top{ /*fix*/
-  margin-top: 45%;
+  margin-top: 60px; /*45% */
+  /* align-items: flex-end; */
 }
 
 .host-card{ 
@@ -222,7 +271,9 @@ header, body, footer, .page-selection-btn {
   background-color: white;
   border-radius: 30px;
 }
-
+.empty-star-icon{
+  color:#DEEBFF
+}
 .star-icon{
   color: #0065FC;
 }
