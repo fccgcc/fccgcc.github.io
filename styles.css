@@ -40,8 +40,15 @@
     width: 100%;
     height : auto;
     border-radius:30px;
+    background-color: #F2F2F2 ;
   }
 
+  .hosting-cards-container-resp{
+    /* horizontal-box flex-wrap row-gapped column-gapped side-paddled */
+    flex-direction: column;
+    flex-wrap:wrap;
+    row-gap: 10px;
+  }
 }
 
 /*tablette*/
@@ -79,13 +86,21 @@
   .hosts-container-resp{
     width: 66%;
     border-radius:   30px;
+    background-color: #F2F2F2
   }
 
   .most-popular-container-resp{
     width: 33%;
     height : auto;
     border-radius:30px;
-    background-color: gray;
+    background-color: #F2F2F2;
+  }
+
+  .hosting-cards-container-resp{
+    /* horizontal-box flex-wrap row-gapped column-gapped side-paddled */
+    flex-direction: column;
+    flex-wrap:wrap;
+    row-gap: 10px;
   }
 }
 
@@ -126,6 +141,7 @@
   .hosts-container-resp{
     width: 66%;
     border-radius:30px;
+    background-color: #F2F2F2
   }
   .most-popular-container-resp{
     width: 33%;
@@ -156,9 +172,13 @@ body{
 .right-aligned{
   margin-left: auto; 
   margin-right: 0;
-  /* display: flex;
-  justify-content: space-between; */
+
 }
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
 .bottom-aligned{
   margin-top: auto; 
   margin-bottom: 0;
