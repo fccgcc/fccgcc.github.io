@@ -269,6 +269,7 @@
   }
 
   .most-popular-container-resp{
+    padding: 20px;
     width: 33%;
     height : auto;
     border-radius:30px;
@@ -455,6 +456,7 @@
     justify-content: space-between;
   }
   .most-popular-container-resp{
+    padding: 20px;
     width: 33%;
     height : auto;
     border-radius:30px;
@@ -571,6 +573,7 @@
   background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
   background-position:  top -50px right 0px;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .activity-img-3{
   background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
