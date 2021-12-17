@@ -445,6 +445,9 @@
     border: 2px solid #0065FC;
     cursor: pointer;
   }
+  .host-card-resp:active {
+    border: 3px solid #678dc5;
+  }
   .paddled-resp{
     padding: 10px 10px;
     display: flex;
@@ -880,6 +883,10 @@ header, body, footer, .page-selection-btn {
 .most-popular-card:hover{
   border: 2px solid #0065FC;
   cursor: pointer;
+}
+.most-popular-card:active
+{
+  border: 3px solid #678dc5;
 }
 .cliquable:hover{
   cursor: pointer;
