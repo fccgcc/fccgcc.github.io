@@ -1,5 +1,78 @@
 /*mobile*/
 @media screen and (max-width : 768px) {
+  .activity-img-1{
+    background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") ;
+  }
+  .activity-img-2{
+    background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .activity-img-3{
+    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-4{
+    background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  }
+  .activity-img-5{
+    background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-6{
+    background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: top -200px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .host-img-1{
+    background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
+    background-position: top -120px right 0px;
+    background-size: cover;
+  }
+  .host-img-2{
+    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+  }
+  .host-img-3{
+    background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: top -60px right 0px;
+  }
+  .host-img-4{
+    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    background-position: top -60px right 0px;
+  }
+  .host-img-5{
+    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: top -60px right 0px;
+  }
+  .host-img-6{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: top -180px right 0px;
+  }
+  .host-img-7{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-position:  top -80px left 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-8{
+    background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-9{
+    background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+  }  
   .big-text{
     font-size: 110%;
   }
@@ -53,6 +126,7 @@
     flex-direction: column;
     flex-wrap:wrap;
     row-gap: 10px;
+    
   }
 
   .host-card-img-resp{ 
@@ -91,8 +165,8 @@
   .most-popular-container-resp{
     width: 100%;
     height : auto;
-    border-radius:30px;
     background-color: #F2F2F2;
+    padding-bottom: 50px;
   }
   .most-popular-card-img-resp{
     margin-top: 1%;
@@ -102,13 +176,17 @@
     height: 142px;
   }
   #activities-container-box-resp{
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
     flex-wrap: wrap
   }
-
+  #Activites{
+  margin-left: 5%;
+  }
   .big-activity-card-resp{
     box-shadow: -2px -3px 10px  gray;    
     width: 100%; 
@@ -129,8 +207,8 @@
   }
 
   .inner-activities-container-resp{
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
   }
 
   .big-activity-card-img-resp{ 
@@ -181,11 +259,82 @@
     height:  200px;
     background-color: #F2F2F2;  
   }
-
 }
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*tablette*/
 @media (min-width:768px) and(max-width:992) {
+  .activity-img-1{
+    background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") ;
+  }
+  .activity-img-2{
+    background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .activity-img-3{
+    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-4{
+    background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  }
+  .activity-img-5{
+    background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-6{
+    background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: top -200px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .host-img-1{
+    background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
+    background-position: top -45px right 0px;
+    background-size: cover;
+  }
+  .host-img-2{
+    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+  }
+  .host-img-3{
+    background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: top -0px right 0px;
+  }
+  .host-img-4{
+    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+  }
+  .host-img-5{
+    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: top -0px right 0px;
+  }
+  .host-img-6{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: top -90px right 0px;
+  }
+  .host-img-7{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-position:  top -80px left 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-8{
+    background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-9{
+    background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+  }
   .big-text{
     font-size: 110%;
   }
@@ -376,6 +525,78 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*desktop*/
 @media screen and (min-width :992px) {
+  .activity-img-1{
+    background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") ;
+  }
+  .activity-img-2{
+    background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .activity-img-3{
+    background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-4{
+    background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  }
+  .activity-img-5{
+    background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position:  top -50px right 0px;
+    background-repeat: no-repeat;
+  }
+  .activity-img-6{
+    background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-position: top -200px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .host-img-1{
+    background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
+    background-position: top -45px right 0px;
+    background-size: cover;
+  }
+  .host-img-2{
+    background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+  }
+  .host-img-3{
+    background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    background-position: top -0px right 0px;
+  }
+  .host-img-4{
+    background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+  }
+  .host-img-5{
+    background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    background-position: top -0px right 0px;
+  }
+  .host-img-6{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-position: top -90px right 0px;
+  }
+  .host-img-7{
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-position:  top -80px left 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-8{
+    background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-position:  top -0px right 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .host-img-9{
+    background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+  }
   .header-horizontal-box{
     display: flex;
     justify-content: space-between;
@@ -408,7 +629,7 @@
   .research-text{
     display:inline-block
   }
-  .research-icon{
+  .research-icon{ 
     display: none;
   }
 
@@ -450,7 +671,7 @@
     border: 3px solid #678dc5;
   }
   .paddled-resp{
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -566,79 +787,6 @@
 .constrained{
   height:142px;
 }
-.activity-img-1{
-  background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg") ;
-}
-.activity-img-2{
-  background-image: url("./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"); 
-  background-position:  top -50px right 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.activity-img-3{
-  background-image: url("./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-  background-position:  top -50px right 0px;
-  background-repeat: no-repeat;
-}
-.activity-img-4{
-  background-image: url("./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-}
-.activity-img-5{
-  background-image: url("./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-  background-position:  top -50px right 0px;
-  background-repeat: no-repeat;
-}
-.activity-img-6{
-  background-image: url("./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-  background-position: top -200px right 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.host-img-1{
-  background-image: url("./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg") ;
-  background-position: top -60px right 0px;
-  background-size: cover;
-}
-.host-img-2{
-  background-image: url("./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  background-size: cover;
-}
-.host-img-3{
-  background-image: url("./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  background-size: cover;
-  background-position: top -10px right 0px;
-}
-.host-img-4{
-  background-image: url("./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
-  background-size: cover;
-}
-.host-img-5{
-  background-image: url("./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
-  background-size: cover;
-  background-position: top -10px right 0px;
-}
-.host-img-6{
-  background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  background-position: top -90px right 0px;
-}
-.host-img-7{
-  background-image: url("./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
-  background-position:  top -100px left 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.host-img-8{
-  background-image: url("./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  background-position:  top -0px right 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.host-img-9{
-  background-image: url("./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-  background-size: cover;
-}
-
 
 .bold-text{
   font-weight: bold;
